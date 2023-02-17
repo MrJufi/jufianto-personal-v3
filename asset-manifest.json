@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jufianto-personal-v3/static/css/main.63c1f188.css",
+    "main.js": "/jufianto-personal-v3/static/js/main.980f5276.js",
+    "static/media/work1.jpg": "/jufianto-personal-v3/static/media/work1.965d3c7c371c00e92d7b.jpg",
+    "static/media/work2.jpg": "/jufianto-personal-v3/static/media/work2.c45cbf30bd92a331259c.jpg",
+    "static/media/profile-jufi.png": "/jufianto-personal-v3/static/media/profile-jufi.4e4c9461c6f32d7b3432.png",
+    "static/media/work4.jpg": "/jufianto-personal-v3/static/media/work4.a5c757fc949fe9e877e8.jpg",
+    "static/media/about.jpg": "/jufianto-personal-v3/static/media/about.2730e114112389e945fa.jpg",
+    "static/media/work3.jpg": "/jufianto-personal-v3/static/media/work3.138ef487398e66eb665e.jpg",
+    "static/media/portfolio.png": "/jufianto-personal-v3/static/media/portfolio.b810a33d9b5ac425def8.png",
+    "static/media/work5.jpg": "/jufianto-personal-v3/static/media/work5.96630d7be6c1bb366e04.jpg",
+    "static/media/home.png": "/jufianto-personal-v3/static/media/home.f5eee1ba866a7fedb739.png",
+    "static/media/aboutBg.png": "/jufianto-personal-v3/static/media/aboutBg.d83b01af94474165f233.png",
+    "static/media/skillsBg.png": "/jufianto-personal-v3/static/media/skillsBg.8c5391e75829fbf3afe1.png",
+    "static/media/logo.png": "/jufianto-personal-v3/static/media/logo.2a3dd1bf232cff753db3.png",
+    "index.html": "/jufianto-personal-v3/index.html",
+    "main.63c1f188.css.map": "/jufianto-personal-v3/static/css/main.63c1f188.css.map",
+    "main.980f5276.js.map": "/jufianto-personal-v3/static/js/main.980f5276.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c1f188.css",
+    "static/js/main.980f5276.js"
+  ]
+}
