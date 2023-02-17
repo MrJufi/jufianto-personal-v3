@@ -1,0 +1,59 @@
+footer {
+    margin-top: var(--mb-5);
+    background-color: #222831;
+    border-top: 2px solid #343434;
+}
+
+.footer__container {
+    padding: 1rem 0 0.3rem;
+}
+
+.content_footer {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: var(--tiny-font-size);
+}
+
+.content_footer h3 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.name_footer {
+    font-weight: 600;
+}
+
+.copyright {
+    display: block;
+    margin-top: 2rem;
+    color: white;
+    font-size: var(--tiny-font-size);
+}
+
+.social_media {
+    margin-top: 10px;
+}
+
+.social_media a{
+    color: white;
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+/* ===== BREAKPOINTS =====*/
+
+  /* For large devices */
+  @media screen and (max-width: 992px) {
+    .footer__social-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+
+    .content_footer {
+        width: 80%;
+    }
+  }
