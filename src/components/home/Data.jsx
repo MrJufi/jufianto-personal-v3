@@ -63,7 +63,7 @@ const Data = () => {
           </ul>
         </div>
         <p className="home__description">
-        A student majoring in Business IT in BINUS University. Dedicated to be a software developer while still struggling of learning frontend development of website.
+        A fresh graduate with a degree in Business IT from BINUS University, With hands-on experience in frontend development at e-commerce company.
         </p>
         <NavLink to='/about'>
         <a href="#about" className="button button--flex">

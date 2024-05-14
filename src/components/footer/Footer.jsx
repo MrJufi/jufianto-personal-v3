@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="social_media">
                 <a href="https://www.fiverr.com/mrjuvianto" target='_blank'>Fiverr</a>
                 <a href="https://www.instagram.com/jufianto/" target='_blank'>Instagram</a>
-                <a href="https://www.tiktok.com/@mrjufianto?is_from_webapp=1&sender_device=pc" target='_blank'>Tiktok</a>
+                <a href="https://www.behance.net/jufiantokim" target='_blank'>Behance</a>
               </div>
             </div>
 

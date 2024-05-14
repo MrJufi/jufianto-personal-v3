@@ -16,9 +16,9 @@ const About = () => {
             <div className="about__data animate__animated animate__fadeInRight">
                 <Info/>
                 <p className="about__description">
-                Hello, everyone call me Jufi. I’m really passionate into coding by always learning new technology and always practice while I had the time. For many years I’ve learned about coding and stuff, I gained some knowledge in problem solving and never stop learning more. Currently I'm a student studying in BINUS University and majoring in Business Information Technology. Aiming to be software developer one day.
+                Hello, everyone, I'm Jufi, a passionate coder who love to explore new technologies and refining my skills through continuous practice and learning. With a degree in Business Information Technology from BINUS University, finished in 3,5 years. Having an experience of working as frontend developer at one of the biggest home, living, and furniture e-commerce company in Indonesia. Gained valuable insights and experience in frontend development world, as right now still dedicating to pursue my career and skills in the dynamic of web development
                 </p>
-                <a href='https://drive.google.com/file/d/1z_1PRAWpp4pdEmAZ9NzT7541rMsEe_Qo/view' target='_blank'
+                <a href='https://drive.google.com/file/d/1JPnwYWC8DfzBPzXyxRdeyEigECG5eQNF/view?usp=drive_link' target='_blank'
                 className="button button--flex">
                     Download CV
                 <svg
