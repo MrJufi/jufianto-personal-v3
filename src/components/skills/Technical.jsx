@@ -43,7 +43,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">Typescript</h3>
                         <span className="skills__level">
-                            The first programming language I learned to enhance my code quality and maintainability by adding strong typing to JavaScript.
+                            Programming language I learned to enhance my code quality and maintainability by adding strong typing to JavaScript.
                         </span>
                     </div>
                 </div>
