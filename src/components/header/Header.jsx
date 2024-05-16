@@ -17,10 +17,13 @@ const Header = () => {
 
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list">
-                    <li>
+                    <li className="nav__item">
                         <NavLink to='/'>
                             <a href="#home" className={`${activeLink === 'home' ? 'active-link' : ''} nav__link`} 
-                                onClick={() => {setActiveLink('home')}}>
+                                onClick={() => {
+                                    setActiveLink('home')
+                                    showMenu(!Toggle)
+                                }}>
                                 <i className="uil uil-estate nav__icon"></i>
                                 Home
                             </a>
@@ -30,7 +33,10 @@ const Header = () => {
                     <li className="nav__item">
                         <NavLink to='/about'>
                         <a href="#about" className={`${activeLink === 'about' ? 'active-link' : ''} nav__link`} 
-                                onClick={() => {setActiveLink('about')}}>
+                                onClick={() => {
+                                    setActiveLink('about')
+                                    showMenu(!Toggle)
+                                }}>
                             <i className="uil uil-user nav__icon"></i>
                             About
                         </a>
@@ -38,9 +44,25 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
+                        <NavLink to='/qualifications'>
+                        <a href="#qualifications" className={`${activeLink === 'qualifications' ? 'active-link' : ''} nav__link`} 
+                                onClick={() => {
+                                    setActiveLink('qualifications')
+                                    showMenu(!Toggle)    
+                                }}>
+                            <i className="uil uil-user nav__icon"></i>
+                            Qualifications
+                        </a>
+                        </NavLink>
+                    </li>
+
+                    <li className="nav__item">
                         <NavLink to='/skills'>
-                        <a href="#about" className={`${activeLink === 'skills' ? 'active-link' : ''} nav__link`} 
-                                onClick={() => {setActiveLink('skills')}}>
+                        <a href="#skills" className={`${activeLink === 'skills' ? 'active-link' : ''} nav__link`} 
+                                onClick={() => {
+                                    setActiveLink('skills')
+                                    showMenu(!Toggle)
+                                }}>
                             <i className="uil uil-wrench nav__icon"></i>
                             Skills
                         </a>
@@ -49,19 +71,22 @@ const Header = () => {
 
                     <li className="nav__item">
                         <NavLink to='/portfolio '>
-                        <a href="#about" className={`${activeLink === 'portfolio' ? 'active-link' : ''} nav__link`} 
-                                onClick={() => {setActiveLink('portfolio')}}>
+                        <a href="#portfolio" className={`${activeLink === 'portfolio' ? 'active-link' : ''} nav__link`} 
+                                onClick={() => {
+                                    setActiveLink('portfolio')
+                                    showMenu(!Toggle)
+                                }}>
                             <i className="uil uil-briefcase nav__icon"></i>
                             Portfolio
                         </a>
                         </NavLink>
                     </li>
                     
-                    <i className="uil uil-times nav__close"></i>
+                    <i className="uil uil-times nav__close" onClick={() => {showMenu(!Toggle)}}></i>
                 </ul>
             </div>
 
-            <div className="nav__toggle" onClick={() => {showMenu(!Toggle)}}>
+            <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                 <i className="uil uil-apps"></i>
             </div>
         </nav>

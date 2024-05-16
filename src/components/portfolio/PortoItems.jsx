@@ -2,7 +2,7 @@ import React from 'react'
 
 const PortoItems = ({item}) => {
   return (
-    <div className="work__card" key={item.id}>
+    <div className="work__card animate__animated animate__fadeIn" key={item.id}>
         <img src={item.image} alt="" className='work__img'/>
         <h3 className="work__title">{item.title}</h3>
         <p className="work__desc">
