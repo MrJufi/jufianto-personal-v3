@@ -33,10 +33,9 @@ const Softskill = () => {
             <div className="skills__data">
                     <i class="uil uil-lightbulb"></i>
                     <div>
-                        <h3 className="skills__name">Critical Thinking --</h3>
+                        <h3 className="skills__name">Critical Thinking</h3>
                         <span className="skills__level">
-                            I am able to solve problem with a creative way and I love
-                            to work in a design environment 
+                            I am able to solve problems through critical thinking and enjoy working in an analytical environment.
                         </span>
                     </div>
             </div>
@@ -60,7 +59,7 @@ const Softskill = () => {
                     <div>
                         <h3 className="skills__name">Creativity</h3>
                         <span className="skills__level">
-                            I am able to solve problem with a creative way and I love
+                            I am able to solve problems with a creative way and I love
                             to work in a design environment 
                         </span>
                     </div>
@@ -69,10 +68,10 @@ const Softskill = () => {
                 <div className="skills__data">
                     <i class="uil uil-lightbulb"></i>
                     <div>
-                        <h3 className="skills__name">Communication --</h3>
+                        <h3 className="skills__name">Communication</h3>
                         <span className="skills__level">
-                            I am able to solve problem with a creative way and I love
-                            to work in a design environment 
+                            I am able to solve problems through effective Communication
+                            and enjoy working in a collaborative environment
                         </span>
                     </div>
                 </div>
