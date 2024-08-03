@@ -12,7 +12,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">HTML</h3>
                         <span className="skills__level">
-                        The first markup languange that i learned for making website and currently i'm still exploring it
+                        The first markup language I learned for web development.
                         </span>
                     </div>
                 </div>
@@ -22,8 +22,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">CSS</h3>
                         <span className="skills__level">
-                            The second markup languange that i learned to style my website instead of just 
-                            using HTML.
+                        The second markup language I learned to style my website.
                         </span>
                     </div>
                 </div>
@@ -33,7 +32,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">Javascript</h3>
                         <span className="skills__level">
-                            I learned Javascript to start enhancing my skill in website development.
+                        Learned JavaScript to enhance my web development skills.
                         </span>
                     </div>
                 </div>
@@ -43,7 +42,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">Typescript</h3>
                         <span className="skills__level">
-                            Programming language I learned to enhance my code quality and maintainability by adding strong typing to JavaScript.
+                        Learned TypeScript to improve my code quality and maintainability with strong typing.
                         </span>
                     </div>
                 </div>
@@ -53,7 +52,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">MySQl</h3>
                         <span className="skills__level">
-                            Relational database management system I learned to store, manage, and query data for my applications.
+                        Learned SQL to store, manage, and query data for my applications.
                         </span>
                     </div>
                 </div>
@@ -63,7 +62,7 @@ const Technical = () => {
                     <div>
                         <h3 className="skills__name">Git</h3>
                         <span className="skills__level">
-                            Version control system I learned to manage and track changes in my code, enabling better collaboration and code management.
+                        Learned Git to track code changes and improve collaboration.
                         </span>
                     </div>
                 </div>
@@ -75,8 +74,7 @@ const Technical = () => {
                         <div>
                             <h3 className="skills__name">Bootstrap</h3>
                             <span className="skills__level">
-                                Currently using this CSS Framework and it's a big help using this framework to 
-                                design my front-end website.
+                            Using this CSS framework for designing my front-end website.
                             </span>
                         </div>
                     </div>
@@ -106,7 +104,7 @@ const Technical = () => {
                         <div>
                             <h3 className="skills__name">Java</h3>
                             <span className="skills__level">
-                                Programming language that I learned during college to build desktop applications, which helped me strengthen my object-oriented programming skills.
+                            Learned this object-oriented language in college for building desktop apps.
                             </span>
                         </div>
                     </div>
@@ -116,7 +114,7 @@ const Technical = () => {
                         <div>
                             <h3 className="skills__name">Tailwind</h3>
                             <span className="skills__level">
-                                CSS framework that I learned to quickly and efficiently style my front-end projects with minimal custom CSS
+                            Learned a CSS framework for quick styling of front-end projects with minimal custom CSS.
                             </span>
                         </div>
                     </div>
@@ -126,7 +124,7 @@ const Technical = () => {
                         <div>
                             <h3 className="skills__name">GraphQL</h3>
                             <span className="skills__level">
-                                Query language I learned to efficiently fetch and manage data in my applications, providing a flexible and precise way to communicate with APIs.
+                            Learned a query language for efficient data handling and precise API communication.
                             </span>
                         </div>
                     </div>
